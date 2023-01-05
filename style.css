@@ -1,0 +1,53 @@
+h1,p {
+color: cornsilk;
+
+}
+.input_area {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    height: 2em ;
+
+}
+.tela{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    border-radius: 1em;
+    flex-direction: column;
+    align-items: center;
+    
+}
+textarea
+{
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    font-size: 15px;
+    border-radius: 1em;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.979);
+    display:flex;
+    padding: 1.5em;
+    border-radius: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+.area{
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 3em;
+    width: 100%;
+    background-color: #ff9500;
+    border:none;
+    color: white;
+    font-size: 20px;
+    
+}
+button:hover {
+    cursor: pointer;
+}
